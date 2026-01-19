@@ -5,7 +5,7 @@
   plugins = {
     treesitter.settings.ensure_installed = [ "bash" ];
     conform-nvim.settings = {
-      formatters_by_ft.bash = [
+      formatters_by_ft.sh = [
         "shellcheck"
         "shellharden"
         "shfmt"
